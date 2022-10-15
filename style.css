@@ -1,11 +1,21 @@
-h1 {
-  position: relative;
-  top: -50px;
-}
 .fixed-top {
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
   z-index: 1030;
+}
+#photo {
+  display: block;
+  margin: 0 auto;
+  max-width: 50%;
+}
+.buttom {
+  text-decoration: none;
+  padding: 20px 20px;
+  border-radius: 4px;
+  margin: 50px;
+  color: black;
+  border-radius: 4px;
+  background-color: #cdbbf2;
 }
