@@ -31,3 +31,6 @@ body {
   padding: 15px;
   font-family: var(--roboto-stylesheet);
 }
+.point {
+  color: blue;
+}
