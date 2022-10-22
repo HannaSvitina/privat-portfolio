@@ -3,7 +3,7 @@
   --inter-stylesheet: "Inter", sans-serif;
   --background-color: #f9f7fe;
 }
-h1 {
+.introduce h1 {
   font-size: 56px;
   font-family: var(--inter-stylesheet);
 }
@@ -11,7 +11,7 @@ h1 {
   text-align: center;
   background: var(--background-color);
 }
-h2 {
+.introduce h2 {
   font-family: var(--roboto-stylesheet);
   padding: 0;
   margin: 0;
@@ -42,4 +42,13 @@ body {
   color: white;
   padding: 15px;
   font-family: var(--roboto-stylesheet);
+}
+img {
+  margin: 30px 0 0;
+  background: var(--background-color);
+  max-width: 100%;
+  height: auto;
+}
+.workpage {
+  padding: 160px 20px;
 }
