@@ -34,3 +34,12 @@ body {
 .point {
   color: blue;
 }
+.about-section-content {
+  margin-top: 150px;
+}
+.btn-primary {
+  margin-top: 50px;
+  color: white;
+  padding: 15px;
+  font-family: var(--roboto-stylesheet);
+}
