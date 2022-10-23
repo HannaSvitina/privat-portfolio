@@ -3,19 +3,19 @@
   --inter-stylesheet: "Inter", sans-serif;
   --background-color: #f9f7fe;
 }
+
 .introduce h1 {
   font-size: 56px;
-  font-family: var(--inter-stylesheet);
+  font-family: var(--roboto-stylesheet);
+  color: blue;
 }
-.introduce {
+.introduce,
+.introduce h2 {
   text-align: center;
   background: var(--background-color);
+  padding: 20px;
 }
-.introduce h2 {
-  font-family: var(--roboto-stylesheet);
-  padding: 0;
-  margin: 0;
-}
+
 p {
   font-size: larger;
   font-family: var(--inter-stylesheet);
@@ -23,11 +23,8 @@ p {
   font-size: 16px;
   font-weight: lighter;
 }
-body {
-  color: #252525;
-}
+
 .btn {
-  color: white;
   padding: 15px;
   font-family: var(--roboto-stylesheet);
 }
@@ -49,9 +46,20 @@ img {
   max-width: 100%;
   height: auto;
 }
-.workpage {
+.workpage,
+.container-contactpage {
   padding: 160px 20px;
 }
-h3 {
-  margin-top: 20px;
+
+.container-fluid a:hover {
+  color: blueviolet;
+}
+@media (max-width: 500px) {
+  .about-section-content,
+  .container-fluid,
+  .container-contactpage,
+  .workpage {
+    padding: 30px;
+    margin: 0;
+  }
 }
