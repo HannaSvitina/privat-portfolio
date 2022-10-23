@@ -2,12 +2,13 @@
   --roboto-stylesheet: "Roboto", sans-serif;
   --inter-stylesheet: "Inter", sans-serif;
   --background-color: #f9f7fe;
+  --secondary-color: blue;
 }
 
 .introduce h1 {
   font-size: 56px;
   font-family: var(--roboto-stylesheet);
-  color: blue;
+  color: var(--secondary-color);
 }
 .introduce,
 .introduce h2 {
@@ -29,7 +30,7 @@ p {
   font-family: var(--roboto-stylesheet);
 }
 .point {
-  color: blue;
+  color: var(--secondary-color);
 }
 .about-section-content {
   margin-top: 150px;
@@ -62,4 +63,15 @@ img {
     padding: 30px;
     margin: 0;
   }
+}
+footer a {
+  text-decoration: none;
+  color: black;
+  margin: 30px;
+  font-size: 24px;
+}
+footer .social-links a {
+  color: var(--secondary-color);
+  font-size: 30px;
+  margin: 0 20px 50px;
 }
