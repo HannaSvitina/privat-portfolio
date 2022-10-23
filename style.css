@@ -20,7 +20,7 @@
 p {
   font-size: larger;
   font-family: var(--inter-stylesheet);
-  line-height: 1.56;
+  line-height: 1.5;
   font-size: 16px;
   font-weight: lighter;
 }
@@ -49,7 +49,7 @@ img {
 }
 .workpage,
 .container-contactpage {
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 
 .container-fluid a:hover {
